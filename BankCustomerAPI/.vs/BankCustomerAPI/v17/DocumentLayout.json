@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\migrations\\20251028114020_fixdecimalprecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\migrations\\20251028114020_fixdecimalprecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\data\\trainingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\data\\trainingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\migrations\\20251028113152_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\migrations\\20251028113152_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\models\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\models\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|c:\\users\\jerinriasen.a\\source\\repos\\bankcustomerapi\\bankcustomerapi\\bankcustomerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5C43201F-0912-4F16-A1C0-D3E07F70CF5A}|BankCustomerAPI\\BankCustomerAPI.csproj|solutionrelative:bankcustomerapi\\bankcustomerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251028114020_FixDecimalPrecision.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Migrations\\20251028114020_FixDecimalPrecision.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Migrations\\20251028114020_FixDecimalPrecision.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Migrations\\20251028114020_FixDecimalPrecision.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Migrations\\20251028114020_FixDecimalPrecision.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:40:21.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Data\\TrainingDbContext.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Data\\TrainingDbContext.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Data\\TrainingDbContext.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Data\\TrainingDbContext.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAUwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:27:05.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Account.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\Account.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA6wC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:40:48.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251028113152_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Migrations\\20251028113152_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Migrations\\20251028113152_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Migrations\\20251028113152_InitialCreate.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Migrations\\20251028113152_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:31:52.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\UserRole.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:39:57.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\User.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:38:44.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\RolePermission.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\RolePermission.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\RolePermission.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\RolePermission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:40:28.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Role.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:39:14.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\Permission.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Permission.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:39:37.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\Branch.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Branch.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\Branch.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:38:01.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Bank.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\Bank.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\Bank.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\Bank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:35:39.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Models\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Models\\AuditableEntity.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Models\\AuditableEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:39:43.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\appsettings.json",
+              "RelativeToolTip": "BankCustomerAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T11:28:53.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\Program.cs",
+              "RelativeToolTip": "BankCustomerAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:28:00.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BankCustomerAPI",
+              "DocumentMoniker": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\BankCustomerAPI.csproj",
+              "RelativeDocumentMoniker": "BankCustomerAPI\\BankCustomerAPI.csproj",
+              "ToolTip": "C:\\Users\\jerinriasen.a\\source\\repos\\BankCustomerAPI\\BankCustomerAPI\\BankCustomerAPI.csproj",
+              "RelativeToolTip": "BankCustomerAPI\\BankCustomerAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T11:26:20.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
