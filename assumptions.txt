@@ -1,0 +1,18 @@
+The Simple User and Account Management System
+
+Assumptions:
+
+1.Each user in the system will have a unique username or email for login.
+2.A user can hold multiple accounts in different banks or branches.
+3.Every account is linked to one specific branch of a bank.
+4.There are three main types of accounts — Saving, Current, and Term Deposit.
+5.Term Deposit accounts are treated as fixed accounts that don’t allow daily transactions.
+6.Normal users are customers, while bank users are employees who help manage operations.
+7.Accounts can also be operated by minors or through a Power of Attorney (POA) with limited permissions.
+8.Only authenticated users can perform actions like depositing, withdrawing, or closing accounts.
+9.The system uses roles and permissions to decide what each user is allowed to do.
+10.Real-time currency exchange or integration with actual banks is not included in this version.
+11.The system supports multiple currencies for NRI users but doesn’t handle currency conversion.
+12.The project will be built using ASP.NET Core, Entity Framework Core, and SQL Server.
+13.All database changes will be tracked through migrations.
+14.Swagger will be used to test and document the API endpoints.

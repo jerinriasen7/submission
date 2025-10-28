@@ -1,0 +1,28 @@
+The Simple User and Account Management System
+
+
+Problem Statement:
+
+   The Simple User and Account Management System helps manage users,banks,and accounts in an  organized and secure way.It allows users and bank staff to create and manage accounts , perform actions like deposits,withdrawals,and balance checks,and control access using roles and permissions.The system aims to provide a simple and secure solution for handling user and account management through REST APIs and authentication.
+
+ Explicit Requirements:
+
+  ->The system must manage users,banks,branches,accounts.
+  ->Each user can have multiple accounts across multiple banks.
+  ->Accounts can be of different types —Saving,Current,Term Deposit.
+  ->The system must support basic operations:deposit,withdraw,check balance,close account.
+  ->Each user must have roles and permissions that control access.
+  ->REST APIs should be provided for /user,/accounts,/banks.
+  ->The project should use Entity Framework Core with migrations.
+  ->The code must follow clean coding and OOP principles.
+
+
+Implicit Requirements:
+
+  ->Each account belongs to one bank and one branch.
+  ->A user can be either a normal user or a bank user.
+  ->Minors or POA (Power of Attorney) users can operate accounts with limited permissions.
+  ->Term Deposit accounts are treated as special types of accounts.
+  ->The system supports multiple currencies for NRI accounts.
+  ->Only authenticated users can perform financial operations.
+  ->Role-based access control ensures that users can perform only the actions allowed by their roles.
