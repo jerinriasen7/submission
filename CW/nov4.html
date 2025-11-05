@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Color Display</title>
+
+<style>
+  :root {
+    --light-bg: #f8fafc;
+    --dark-bg: #1e293b;
+    --light-text: #111;
+    --dark-text: #f1f5f9;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--light-bg);
+    color: var(--light-text);
+    transition: background 0.25s, color 0.25s;
+  }
+
+  body.dark {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #93c5fd;
+    color: #111;
+  }
+
+  #dateTime {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+  .controls {
+    text-align: center;
+    margin: 16px 0;
+  }
+
+  button {
+    margin: 5px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    cursor: pointer;
+    background: #e2e8f0;
+  }
+
+  #themeBtn {
+    background: #facc15;
+    border-color: #b45309;
+  }
+
+  #colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .colorBox {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <h1>Current Date and Time</h1>
+    <div id="dateTime"></div>
+  </header>
+
+  <div class="controls">
+    <button onclick="showColors()">Show Colors</button>
+    <button onclick="clearColors()">Clear</button>
+    <button id="themeBtn" onclick="toggleTheme()">Toggle Theme</button>
+  </div>
+
+  <section id="colors"></section>
+
+<script>
+const staticColors = [
+  "Red", "Blue", "Green", "Yellow", "Orange",
+  "Purple", "Pink", "Black", "Gray", "Brown"
+];
+
+function parseRgbString(rgbStr) {
+  if (!rgbStr) return null;
+  const m = rgbStr.match(/rgba?\s*\(\s*(\d+)[^\d]+(\d+)[^\d]+(\d+)/i);
+  return m ? [ +m[1], +m[2], +m[3] ] : null;
+}
+
+function readableTextColorFromRgb(rgb) {
+  if (!rgb) return "#000";
+  const [r, g, b] = rgb;
+  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+  return brightness < 125 ? "#fff" : "#000";
+}
+
+function showColors() {
+  const container = document.getElementById('colors');
+  container.innerHTML = "";
+
+  staticColors.forEach(name => {
+    const box = document.createElement('div');
+    box.className = 'colorBox';
+    box.style.background = name;
+    box.textContent = name;
+    container.appendChild(box);
+
+    const computed = window.getComputedStyle(box).backgroundColor;
+    const rgb = parseRgbString(computed);
+    const textColor = readableTextColorFromRgb(rgb);
+    box.style.color = textColor;
+
+    const [r, g, b] = rgb || [255, 255, 255];
+    const avg = (r + g + b) / 3;
+
+    if (avg < 60) {
+      box.style.borderColor = "white";
+    } else {
+      box.style.borderColor = "#ccc";
+    }
+  });
+}
+
+function clearColors() {
+  document.getElementById('colors').innerHTML = "";
+}
+
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+}
+
+function updateTime() {
+  document.getElementById('dateTime').textContent = new Date().toLocaleString();
+}
+
+updateTime();
+setInterval(updateTime, 1000);
+</script>
+</body>
+</html>
