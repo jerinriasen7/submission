@@ -1,4 +1,4 @@
-﻿using BankCustomerAPI.Data;
+using BankCustomerAPI.Data;
 using BankCustomerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,9 +25,6 @@ namespace BankCustomerAPI.Service
         // Log Deposit transaction
         public async Task<Transaction> DepositAsync(int accountId, decimal amount, int userId)
         {
-            var account = await _context.Accounts.FindAsync(accountId);
-            if (account == null) throw new Exception("Account not found");
-
             var txn = new Transaction
             {
                 AccountId = accountId,
@@ -37,7 +34,7 @@ namespace BankCustomerAPI.Service
                 Status = "Completed",
                 TransactionDate = DateTime.UtcNow,
                 FromAccount = null,
-                ToAccount = account.AccountNumber
+                ToAccount = "Account " + accountId
             };
 
             _context.Transactions.Add(txn);
@@ -46,12 +43,10 @@ namespace BankCustomerAPI.Service
             return txn;
         }
 
+
         // Log Withdraw transaction
         public async Task<Transaction> WithdrawAsync(int accountId, decimal amount, int userId)
         {
-            var account = await _context.Accounts.FindAsync(accountId);
-            if (account == null) throw new Exception("Account not found");
-
             var txn = new Transaction
             {
                 AccountId = accountId,
@@ -60,7 +55,7 @@ namespace BankCustomerAPI.Service
                 Type = "Withdraw",
                 Status = "Completed",
                 TransactionDate = DateTime.UtcNow,
-                FromAccount = account.AccountNumber,
+                FromAccount = "Account " + accountId,
                 ToAccount = null
             };
 
@@ -73,12 +68,6 @@ namespace BankCustomerAPI.Service
         // Log Transfer transaction (from source account perspective)
         public async Task<Transaction> TransferAsync(int fromAccountId, int toAccountId, decimal amount, int userId)
         {
-            var fromAcc = await _context.Accounts.FindAsync(fromAccountId);
-            var toAcc = await _context.Accounts.FindAsync(toAccountId);
-
-            if (fromAcc == null || toAcc == null)
-                throw new Exception("Account not found");
-
             var txn = new Transaction
             {
                 AccountId = fromAccountId,
@@ -87,8 +76,8 @@ namespace BankCustomerAPI.Service
                 Type = "Transfer",
                 Status = "Completed",
                 TransactionDate = DateTime.UtcNow,
-                FromAccount = fromAcc.AccountNumber,
-                ToAccount = toAcc.AccountNumber
+                FromAccount = fromAccountId.ToString(),
+                ToAccount = toAccountId.ToString()
             };
 
             _context.Transactions.Add(txn);
@@ -96,5 +85,7 @@ namespace BankCustomerAPI.Service
 
             return txn;
         }
+
     }
 }
+
